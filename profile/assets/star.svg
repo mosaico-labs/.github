@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 84" width="560" height="84">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#f04b23"/><stop offset="0.5" stop-color="#bd38b4"/><stop offset="1" stop-color="#1a99c3"/></linearGradient></defs>
+<rect x="2" y="2" width="556" height="80" rx="40.0" fill="#0d1117" stroke="url(#g)" stroke-width="4"/>
+<path d="M0,-26 L7.6,-10.5 L24.7,-8 L12.4,4 L15.3,21 L0,13 L-15.3,21 L-12.4,4 L-24.7,-8 L-7.6,-10.5 Z" transform="translate(72,43.0)" fill="url(#g)"/>
+<text x="118" y="52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" text-anchor="start" letter-spacing="0" fill="#ffffff">Star mosaico on GitHub</text>
+<text x="520" y="51" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="26" font-weight="normal" text-anchor="end" letter-spacing="0" fill="#9198a1">→</text>
+</svg>
