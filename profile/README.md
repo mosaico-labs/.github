@@ -1,10 +1,10 @@
 <a href="https://github.com/mosaico-labs/mosaico"><img alt="mosaico" src="assets/mosaico-github-hero.webp" width="100%"></a>
 
 <p align="center">
-  <a href="https://github.com/mosaico-labs/mosaico"><img src="https://img.shields.io/github/stars/mosaico-labs/mosaico?style=flat&logo=github&label=mosaico&color=%23bd38b4" alt="mosaico on GitHub"></a>
-  <a href="https://docs.mosaico.dev"><img src="https://img.shields.io/badge/docs-docs.mosaico.dev-%231a99c3?logo=readthedocs&logoColor=white" alt="docs"></a>
-  <a href="https://pypi.org/project/mosaicolabs"><img src="https://img.shields.io/pypi/v/mosaicolabs?label=pypi&color=%23f04b23" alt="pypi"></a>
-  <a href="https://discord.gg/mwQtFnsckE"><img src="https://img.shields.io/discord/1413199575442784266?logo=discord&logoColor=white&label=discord&color=%235865f2" alt="discord"></a>
+  <a href="https://github.com/mosaico-labs/mosaico"><img src="https://img.shields.io/github/stars/mosaico-labs/mosaico?style=flat-square&logo=github&label=mosaico&color=%23bd38b4" alt="mosaico on GitHub"></a>
+  <a href="https://docs.mosaico.dev"><img src="https://img.shields.io/badge/docs-docs.mosaico.dev-%2301699a?style=flat-square&logo=readthedocs&logoColor=white" alt="docs"></a>
+  <a href="https://pypi.org/project/mosaicolabs"><img src="https://img.shields.io/pypi/v/mosaicolabs?style=flat-square&label=pypi&color=%23f04b23" alt="pypi"></a>
+  <a href="https://discord.gg/mwQtFnsckE"><img src="https://img.shields.io/discord/1413199575442784266?style=flat-square&logo=discord&logoColor=white&label=discord&color=%235865f2" alt="discord"></a>
 </p>
 
 We build **[Mosaico](https://github.com/mosaico-labs/mosaico)**, an open-source (Apache 2.0) data platform for robotics. It takes ROS bags, MCAP files and other sensor logs and turns them into a typed, indexed archive running on your own machines. You can then search recordings by what happened in them and stream just the time slice you need into your code, without parsing whole files.
