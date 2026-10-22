@@ -21,6 +21,12 @@ pip install mosaicolabs                                            # Python SDK
 mosaicolabs.ros_injector --file run_042.mcap --sequence run_042    # load a recording
 ```
 
+Prefer containers? `mosaicod` is also published as an image (`latest`, `x.y`, `x.y.z` and `nightly` tags), and the [install guide](https://docs.mosaico.dev/daemon/install) has a ready-to-use compose file with PostgreSQL:
+
+```bash
+docker pull ghcr.io/mosaico-labs/mosaicod:latest
+```
+
 Then see the [getting started guide](https://docs.mosaico.dev/getting_started) and the [Python SDK docs](https://docs.mosaico.dev/python-sdk/).
 
 ### Discord
