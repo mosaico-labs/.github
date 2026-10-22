@@ -10,7 +10,7 @@
 We build **[Mosaico](https://github.com/mosaico-labs/mosaico)**, an open-source (Apache 2.0) data platform for robotics. It takes ROS bags, MCAP files and other sensor logs and turns them into a typed, indexed archive running on your own machines. You can then search recordings by what happened in them and stream just the time slice you need into your code, without parsing whole files.
 
 <p align="center">
-  <a href="https://github.com/mosaico-labs/mosaico"><img alt="Star mosaico on GitHub" src="assets/star.svg" width="340"></a>
+  <a href="https://github.com/mosaico-labs/mosaico"><img alt="Star mosaico on GitHub" src="assets/star.svg" width="240"></a>
 </p>
 
 ### Getting started
