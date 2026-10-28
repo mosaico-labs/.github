@@ -10,7 +10,7 @@
 We build **[Mosaico](https://github.com/mosaico-labs/mosaico)**, an open-source (Apache 2.0) data platform for robotics. It takes ROS bags, MCAP files and other sensor logs and turns them into a typed, indexed archive running on your own machines. You can then search recordings by what happened in them and stream just the time slice you need into your code, without parsing whole files.
 
 <p align="center">
-  <a href="https://github.com/mosaico-labs/mosaico"><img alt="Explore mosaico" src="assets/explore-mosaico.svg" width="440"></a>
+  <a href="https://github.com/mosaico-labs/mosaico"><img alt="Explore mosaico. Free, no credit card required" src="assets/explore-mosaico.svg" width="440"></a>
 </p>
 
 ---
@@ -44,10 +44,10 @@ We regularly run robotics hackathons and challenges. If you're taking part in on
 ### Repositories
 
 <p>
-  <a href="https://github.com/mosaico-labs/mosaico"><img alt="mosaico: the platform, Rust daemon and Python SDK" src="assets/repo-mosaico.svg" width="49%"></a>
-  <a href="https://github.com/mosaico-labs/mosaico-alchemy"><img alt="mosaico-alchemy: ingestion pipelines for public datasets" src="assets/repo-mosaico-alchemy.svg" width="49%"></a>
-  <a href="https://github.com/mosaico-labs/mosaico-test-datasets"><img alt="mosaico-test-datasets: public ROS bags, ready to load" src="assets/repo-mosaico-test-datasets.svg" width="49%"></a>
-  <a href="https://github.com/mosaico-labs/refx"><img alt="refx: compile-time safe coordinate frames in C++" src="assets/repo-refx.svg" width="49%"></a>
+  <a href="https://github.com/mosaico-labs/mosaico"><img alt="mosaico: the platform, Rust daemon and Python SDK" src="assets/repo-mosaico.svg" width="100%"></a>
+  <a href="https://github.com/mosaico-labs/mosaico-alchemy"><img alt="mosaico-alchemy: ingestion pipelines for public datasets" src="assets/repo-mosaico-alchemy.svg" width="100%"></a>
+  <a href="https://github.com/mosaico-labs/mosaico-test-datasets"><img alt="mosaico-test-datasets: public ROS bags, ready to load" src="assets/repo-mosaico-test-datasets.svg" width="100%"></a>
+  <a href="https://github.com/mosaico-labs/refx"><img alt="refx: compile-time safe coordinate frames in C++" src="assets/repo-refx.svg" width="100%"></a>
 </p>
 
 ---
