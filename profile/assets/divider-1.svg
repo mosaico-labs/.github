@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 16" width="1280" height="16">
+<defs>
+<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.3" stop-color="#fff"/><stop offset="0.7" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="16"><rect width="1280" height="16" fill="url(#fade)"/></mask>
+</defs>
+<g mask="url(#m)">
+<rect x="0" y="4.0" width="28" height="8" fill="#01699a"/>
+<rect x="32.75" y="4.75" width="46.5" height="6.5" fill="none" stroke="#f04b23" stroke-width="1.5"/>
+<rect x="116" y="4.0" width="90" height="8" fill="#bd38b4"/>
+<rect x="210" y="4.0" width="90" height="8" fill="#1a99c3"/>
+<rect x="304" y="4.0" width="14" height="8" fill="#f04b23"/>
+<rect x="322" y="4.0" width="28" height="8" fill="#f04b23"/>
+<rect x="354" y="4.0" width="64" height="8" fill="#f04b23"/>
+<rect x="422" y="4.0" width="90" height="8" fill="#f04b23"/>
+<rect x="568" y="4.0" width="64" height="8" fill="#e2d808"/>
+<rect x="636.75" y="4.75" width="12.5" height="6.5" fill="none" stroke="#f04b23" stroke-width="1.5"/>
+<rect x="654" y="4.0" width="10" height="8" fill="#01699a"/>
+<rect x="668" y="4.0" width="14" height="8" fill="#f04b23"/>
+<rect x="686.75" y="4.75" width="46.5" height="6.5" fill="none" stroke="#1a99c3" stroke-width="1.5"/>
+<rect x="738" y="4.0" width="20" height="8" fill="#01699a"/>
+<rect x="762" y="4.0" width="36" height="8" fill="#1a99c3"/>
+<rect x="802.75" y="4.75" width="46.5" height="6.5" fill="none" stroke="#01699a" stroke-width="1.5"/>
+<rect x="878" y="4.0" width="36" height="8" fill="#01699a"/>
+<rect x="918" y="4.0" width="10" height="8" fill="#01699a"/>
+<rect x="932.75" y="4.75" width="46.5" height="6.5" fill="none" stroke="#bd38b4" stroke-width="1.5"/>
+<rect x="984" y="4.0" width="90" height="8" fill="#e2d808"/>
+<rect x="1078" y="4.0" width="90" height="8" fill="#e2d808"/>
+<rect x="1172" y="4.0" width="20" height="8" fill="#01699a"/>
+</g>
+</svg>
