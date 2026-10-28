@@ -17,9 +17,7 @@ We build **[Mosaico](https://github.com/mosaico-labs/mosaico)**, an open-source 
 ### Getting started
 
 ```bash
-curl -fsSL https://get.mosaico.dev | sh                            # mosaicod + mosaicoctl, Linux & macOS
-pip install mosaicolabs                                            # Python SDK
-mosaicolabs.ros_injector --file run_042.mcap --sequence run_042    # load a recording
+curl -fsSL https://get.mosaico.dev | sh    # mosaicod + mosaicoctl, Linux & macOS
 ```
 
 Prefer containers? `mosaicod` is also published as an image (`latest`, `x.y`, `x.y.z` and `nightly` tags), and the [install guide](https://docs.mosaico.dev/daemon/install) has a ready-to-use compose file with PostgreSQL:
@@ -28,7 +26,14 @@ Prefer containers? `mosaicod` is also published as an image (`latest`, `x.y`, `x
 docker pull ghcr.io/mosaico-labs/mosaicod:latest
 ```
 
-Then see the [getting started guide](https://docs.mosaico.dev/getting_started) and the [Python SDK docs](https://docs.mosaico.dev/python-sdk/).
+Install the Python SDK and the `mosaico` CLI, then load your first recording:
+
+```bash
+pip install "mosaicolabs[cli]"                                     # Python SDK + mosaico CLI
+mosaicolabs.ros_injector --file run_042.mcap --sequence run_042    # load a recording
+```
+
+Then see the [getting started guide](https://docs.mosaico.dev/getting_started), the [Python SDK docs](https://docs.mosaico.dev/python-sdk/) and the [CLI reference](https://docs.mosaico.dev/cli/commands/).
 
 ---
 
@@ -42,11 +47,25 @@ We regularly run robotics hackathons and challenges. If you're taking part in on
 
 ### Repositories
 
-<p align="center">
-  <a href="https://github.com/mosaico-labs/mosaico"><img alt="mosaico: the platform, Rust daemon and Python SDK" src="assets/repo-mosaico.svg" width="640"></a>
-  <a href="https://github.com/mosaico-labs/mosaico-alchemy"><img alt="mosaico-alchemy: ingestion pipelines for public datasets" src="assets/repo-mosaico-alchemy.svg" width="640"></a>
-  <a href="https://github.com/mosaico-labs/mosaico-test-datasets"><img alt="mosaico-test-datasets: public ROS bags, ready to load" src="assets/repo-mosaico-test-datasets.svg" width="640"></a>
-  <a href="https://github.com/mosaico-labs/refx"><img alt="refx: compile-time safe coordinate frames in C++" src="assets/repo-refx.svg" width="640"></a>
+<p>
+  <a href="https://github.com/mosaico-labs/mosaico"><img alt="" src="assets/repo-mosaico.svg" width="120" align="left"></a>
+  <a href="https://github.com/mosaico-labs/mosaico"><b>mosaico</b></a><br>
+  The platform: the Rust daemon <code>mosaicod</code> and the Python SDK.
+  <br clear="left">
+</p>
+
+<p>
+  <a href="https://github.com/mosaico-labs/mosaico-alchemy"><img alt="" src="assets/repo-mosaico-alchemy.svg" width="120" align="left"></a>
+  <a href="https://github.com/mosaico-labs/mosaico-alchemy"><b>mosaico-alchemy</b></a><br>
+  Ready-to-use ingestion pipelines for public robotics datasets.
+  <br clear="left">
+</p>
+
+<p>
+  <a href="https://github.com/mosaico-labs/refx"><img alt="" src="assets/repo-refx.svg" width="120" align="left"></a>
+  <a href="https://github.com/mosaico-labs/refx"><b>refx</b></a><br>
+  Compile-time safe C++ library for coordinate frames and transformations in mobile robotics.
+  <br clear="left">
 </p>
 
 ---
