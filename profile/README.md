@@ -13,7 +13,6 @@ We build **[Mosaico](https://github.com/mosaico-labs/mosaico)**, an open-source 
   <a href="https://github.com/mosaico-labs/mosaico"><img alt="Explore mosaico. Free, no credit card required" src="assets/explore-mosaico.svg" width="440"></a>
 </p>
 
----
 
 ### Getting started
 
